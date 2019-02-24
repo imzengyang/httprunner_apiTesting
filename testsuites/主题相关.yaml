@@ -1,0 +1,18 @@
+config:
+    name: create users with uid
+    variables: 
+      token: 3333a0fb-6dd8-439e-813b-2c3a5213a154
+        
+
+testcases:
+    主题1相关:
+        testcase: testcases/002.yaml
+        parameters:
+          - title-tab-content: ${P(data/fatie.csv)}
+    主题2相关:
+        testcase: testcases/主题/topic.yaml
+        variables: 
+        #   token: 3333a0fb-6dd8-439e-813b-2c3a5213a154
+            post_title: posttitle_000001
+            post_content: post_content_0000001
+            post_tab: ask

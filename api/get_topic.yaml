@@ -1,0 +1,4 @@
+name: /topics 主题首页  测试点，不同的参数显示不同的结果
+request:
+  method: GET
+  url: /api/v1/topics?limit=1
