@@ -9,5 +9,5 @@
     validate:
         - eq: ["status_code", 200]
         - eq: 
-           - ${get_count("content.data")}
+           - ${get_count()}
            - 1
